@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Building a SIEM</title>
+<style>
+    *{
+    font-family: 'Opensans', ;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    line-height: 1.5;
+}
+    html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f3f4f6;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+    
+       
+       border: #333 2px;
+        border-radius: 10px;
+        padding: 40px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        font-size: 30px;
+        color: #333;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .highlight {
+        color: #007bff;
+        font-weight: bold;
+    }
+
+    .accent {
+        color: #ff4500;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 50px;
+        color: #888;
+    }
+    .description {
+			background-color: #f0f0f0;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+			margin-bottom: 20px;
+		}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Building a SIEM</h1>
+    <p>In this project, I leveraged <span class="highlight">Building a SIEM
+    <p>Here are the steps the way build a SIEM:- </p>
+    <div>
+        <p class="description"> 
+            <b>*Platform Selection:</b>
+    
+            we used Kali Linux as the operating system due to its extensive collection of cybersecurity tools and robust security features.
+    
+            
+        </p>
+
+    </div>
+    <div>
+        <p class="description">
+            <b>*Toolchain Integration:</b>
+    
+            Integrated Elastic Search, Logstash, and Kibana (ELK stack) for their advanced capabilities in data storage, log parsing, and visualization, respectively.
+        </p>
+
+    </div>
+  
+    <div>
+        <p class="description">
+            <b>*Data Collection:</b>
+    
+            Configured Logstash to collect logs from various sources including network devices, servers, and applications, ensuring comprehensive coverage of security events.  
+        </p>
+
+
+    </div>
+   <div>
+    <p class="description">
+        <b>*Data Parsing and Normalization:</b>
+
+        Utilized Logstash to parse and normalize incoming log data, standardizing formats for efficient analysis and correlation.
+    </p>
+
+
+   </div>
+    <div>
+        <p class="description">
+            <b>*Data Storage:</b>
+    
+            Implemented Elastic Search as the backend storage solution, providing fast and scalable indexing of log data for real-time querying and analysis.
+        </p>
+
+    </div>
+    <div>
+        <p class="description">
+           <b> *Real-Time Monitoring: </b>
+    
+            Leveraged Kibana's visualization capabilities to create dashboards for real-time monitoring of security events, enabling quick identification of anomalies and threats.
+        </p>
+
+    </div>
+   <div>
+    <p class="description">
+        <b>*Alerting Mechanisms:</b>
+
+        Configured alerting mechanisms within Kibana to notify security personnel of critical events and potential security breaches, ensuring timely response.
+    </p>
+
+   </div>
+    <div>
+        <p class="description">
+            <b>*Threat Detection:</b>
+    
+            Developed custom detection rules within the SIEM platform to identify known and emerging threats based on log data patterns and signatures
+        </p>
+
+    </div>
+   <div>
+    <p class="description">
+        <b>*Incident Response:</b>
+
+        Established workflows and procedures for incident response within the SIEM platform, enabling swift and effective mitigation of security incidents.
+    </p>
+
+   </div>
+   <div>
+    <p class="description">
+        <b>*Scalability and Performance:</b>
+
+        Designed the SIEM architecture to be scalable, capable of handling large volumes of log data while maintaining optimal performance.
+    </p>
+
+   </div>
+   <div>
+    <p class="description">
+        <b>*Documentation and Training:</b>
+
+            Documented the SIEM implementation process, including configuration settings, deployment procedures, and troubleshooting guidelines.
+            Conducted training sessions for security operations teams to familiarize them with the SIEM platform and its functionalities.
+    </p>
+
+   </div>
+    
+     <div>
+        <p class="description">
+            <b>*Continuous Improvement:</b>
+    
+            Implemented a process for continuous improvement and optimization of the SIEM platform, incorporating feedback and lessons learned from ongoing monitoring and incident response activities.
+        </p>
+
+     </div>   
+    
+</div>
+
+<div class="footer">
+    &copy; Karthikeya Thanniru
+</div>
+
+</body>
+</html>
